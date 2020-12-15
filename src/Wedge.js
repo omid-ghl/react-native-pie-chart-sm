@@ -25,7 +25,7 @@
 import React, {Component} from 'react';
 import {Platform, ART} from 'react-native';
 import PropTypes from 'prop-types';
-const {Shape, Path} = ART;
+import  { Surface, Group, Path, Shape } from '@react-native-community/art';
 
 /**
  * Wedge is a React component for drawing circles, wedges and arcs.  Like other
